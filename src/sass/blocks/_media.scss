@@ -1,0 +1,30 @@
+@media (max-width: 1200px) {
+    .header {
+        padding: 0 25px 0 25px;
+    }
+    .promo {
+        &__header {
+            font-size: 35px;
+            margin: 0 auto;
+        }
+        &__subheader {
+            font-size: 20px;
+            margin: 0 auto;
+            margin-top: 8px;
+        }
+        &__icons {
+            margin: 0 auto;
+            margin-top: 55px;
+        }
+        &__link {
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+    }
+    .button {
+        &_main {
+            margin: 0 auto;
+            margin-top: 70px;
+        }
+    }
+}
