@@ -9,9 +9,9 @@
         }
     }
     &__official {
-        color: #ffffff;
+        font-weight: 400;
         font-size: 12px;
-        font-weight: 500;
+        color: #fff;
         text-align: center;
         span {
             display: block;
@@ -19,13 +19,13 @@
         }
     }
     &__phone {
-        display: block;
-        color: #FFFFFF;
-        font-size: 18px;
         font-weight: 700;
+        font-size: 18px;
+        color: #fff;
+        display: block;
         text-decoration: none;
         &:hover {
-            color: #ffff
+            color: #fff
         }
     }
     &__contacts {
